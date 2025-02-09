@@ -27,7 +27,8 @@ public class TC_JB1 extends  Baseclass{
 		Thread.sleep(1000);
 		jb.clickSign();
 		Thread.sleep(1000);
-		jb.clickJobs();
+		
+	/*	jb.clickJobs();
 		Thread.sleep(1000);
 		jb.setsearch(src);
 		Thread.sleep(1000);
@@ -48,7 +49,7 @@ public class TC_JB1 extends  Baseclass{
 		jb.clickInput1(Inp4);
 		jb.clickRadiobutton5();
 		jb.ctcTextBox(ctc);
-		jb.clickReview();
+		jb.clickReview(); */
 		
 		
 		

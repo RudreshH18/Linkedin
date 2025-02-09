@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import Generic.Baseclass;
 import org.openqa.selenium.By;
@@ -29,6 +30,7 @@ public class Jobs {
 	@FindBy(xpath = "//button[text()='Show']") WebElement Show;
 	@FindBy(xpath = "(//icon[@aria-hidden=\"true\"])[7]") WebElement close;
 	@FindBy(xpath = "(//button[@type=\"submit\"])[2]")WebElement Sign;
+	
 	@FindBy(xpath = "//a[@href=\"https://www.linkedin.com/jobs/?\"]") WebElement Jobs;
 	@FindBy(xpath = "(//input[@aria-label=\"Search by title, skill, or company\"])[1]") WebElement Search;
 	@FindBy(xpath = "//button[@id=\"searchFilter_timePostedRange\"]") WebElement Dateposted;
@@ -108,6 +110,7 @@ public class Jobs {
 	}
 	public void clickSign () {
 		Sign.click();
+		
 	}
 	public void clickJobs () {
 		Jobs.click();
